@@ -80,3 +80,15 @@ if svar == "1":
 else: 
     print("Fel, inte så många har sett den.") 
     print("Antal poäng:", poäng)
+print()
+print("FINISH!! THE END")
+print("Du fick totalt", poäng, "av 5 poäng!")
+
+if poäng == 5:
+    print("PERFEKT! Du är en rå tuffing! precis som Alec Baldwin! Typ")
+elif poäng >= 3:
+    print("Bra jobbat! Du kan ball asså!")
+elif poäng >= 1:
+    print("Du fick några rätt i alla fall... hoppas du är glad med ditt ENDA poäng :/")
+else:
+    print("0 poäng?! Gå och läs på, din jävel!")
