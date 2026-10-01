@@ -29,13 +29,12 @@ print("4 = 1995")
 svar = input("Choose Your Destiny, Mortal! = ") 
 if svar == "2": 
     poäng += 1 
-    print("Korrekt! Klok e DU!") 
+    print("Korrekt! Rip n Tear till its done!!") 
     print("Du fick ett poäng för du är en rå jävla tuffing!!!") 
     print("Antal Poäng:", poäng) 
 else: 
-    print("Oh boy this is embarrassing... :/") 
-    print("Antal poäng:", poäng)
-    exit() 
+    print("Fuck, spela Animal Crossing istället...") 
+    print("Antal poäng:", poäng) 
 print() 
 print("Tredje Frågan - Vilken sida vann i Andra Världskriget") 
 print("1 = Allierade / USA, Sovjetunionen och Storbrittannien") 
@@ -51,9 +50,33 @@ if svar == "1":
 else: 
     print("Läs på om Historia, alla borde veta detta...") 
     print("Antal poäng:", poäng)
-    exit()
-print()
-print()
-print("Fler frågor kommer senare....")
-print()
-print()
+print() 
+print("Fjärde Frågan - Vad hette mannen som utförde den blodiga Sandy Hook Massakern den 14 december 2012?") 
+print("1 = Anton Lundin Pettersson") 
+print("2 = Seung-Hui Cho") 
+print("3 = Adam Lanza") 
+print("4 = Thomas Hamilton") 
+svar = input("Choose Your Destiny, Mortal! = ") 
+if svar == "3": 
+    poäng += 1 
+    print("Korrekt! Men det är så satans tragiskt") 
+    print("Du fick ett poäng för du är en rå jävla tuffing!!!") 
+    print("Antal Poäng:", poäng) 
+else: 
+    print("Äh alla borde inte veta denna.") 
+    print("Antal poäng:", poäng)
+print() 
+print("Femte Frågan - Det finns en film som är löst baserad på McDonalds-massakern i San Ysidro 1984 som gjordes 1987. Vad heter den?") 
+print("1 = Bloody Wednesday") 
+print("2 = McMassacre") 
+print("3 = The Burger of Death") 
+print("4 = San Ysidro") 
+svar = input("Choose Your Destiny, Mortal! = ") 
+if svar == "1": 
+    poäng += 1 
+    print("Korrekt! En Riktig B-film!") 
+    print("Du fick ett poäng för du är en rå jävla tuffing!!!") 
+    print("Antal Poäng:", poäng) 
+else: 
+    print("Fel, inte så många har sett den.") 
+    print("Antal poäng:", poäng)
