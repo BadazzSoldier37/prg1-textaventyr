@@ -89,6 +89,6 @@ if poäng == 5:
 elif poäng >= 3:
     print("Bra jobbat! Du kan ball asså!")
 elif poäng >= 1:
-    print("Du fick några rätt i alla fall... hoppas du är glad med ditt ENDA poäng :/")
+    print("Du fick några rätt i alla fall... hoppas du är glad med ditt ENDA eller TVÅ poäng :/")
 else:
     print("0 poäng?! Gå och läs på, din jävel!")
